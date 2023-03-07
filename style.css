@@ -1,0 +1,255 @@
+                        /*Inicio de estilos*/
+                    
+                    body {
+                        margin: 0;
+                        font-family: 'Kanit', sans-serif;
+                        color: #555;
+                        background: rgb(255, 255, 255);
+                        scroll-behavior: smooth;
+                    }
+                    
+                    .titulo {
+                        margin-top: 3rem;
+                        font-size: 3.5rem;
+                        text-align: center;
+                    }
+                    /*Cambio de color - Texto animado*/
+                    
+                    span {
+                        color: orangered;
+                    }
+                    /*Ajustes para moviles*/
+                    
+                    .menu-icon {
+                        width: 100%;
+                        background-color: #555;
+                        overflow: auto;
+                    }
+                    
+                    .menu-bar {
+                        display: none;
+                    }
+                    
+                    .menu-icon a {
+                        float: left;
+                        text-align: center;
+                        width: 20%;
+                        padding: 1rem 0;
+                        transition: all 0.3s ease;
+                        color: white;
+                        font-size: 36px;
+                    }
+                    
+                    .menu-icon a:hover {
+                        background-color: rgb(235, 73, 23);
+                    }
+                    
+                    .active {
+                        background-color: #04AA6D;
+                    }
+                    
+                    h2 {
+                        text-align: center;
+                        font-size: 2rem;
+                    }
+                    
+                    .sub-titulo {
+                        padding: 0;
+                        margin: 0;
+                        font-size: 3rem;
+                    }
+                    
+                    .container {
+                        display: flex;
+                        justify-content: center;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    .profile-pic {
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 30%;
+                    }
+                    
+                    .sec-trabajos {
+                        display: block;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    .lista-conocimientos {
+                        text-decoration: none;
+                        list-style-type: none;
+                    }
+                    
+                    .progress {
+                        height: 35px;
+                        width: 90%;
+                        border: 1px solid rgb(235, 73, 23);
+                        border-radius: 5px;
+                        background-color: #e6f3fa;
+                        margin-bottom: 15px;
+                    }
+                    
+                    .progress-bar {
+                        height: 100%;
+                        background: rgb(235, 73, 23);
+                        display: flex;
+                        align-items: center;
+                        transition: width 0.3s;
+                        border-radius: 5px;
+                    }
+                    
+                    .progress-bar-text {
+                        margin-left: 1rem;
+                        font-weight: bold;
+                        color: #cce7f5;
+                    }
+                    
+                    .info-trabajos {
+                        margin: 1rem;
+                    }
+                    
+                    .caja-formulario {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    .container {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: row;
+                    }
+                    
+                    .titulo-contacto {
+                        text-align: center;
+                    }
+                    
+                    .formulario {
+                        background-color: #555;
+                        border-radius: 10px;
+                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+                        padding: 1rem;
+                        margin: 0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width: 90%;
+                    }
+                    
+                    label {
+                        text-align: center;
+                        font-size: 1.3rem;
+                        width: 100%;
+                        padding: 0;
+                        margin: 0;
+                        color: whitesmoke;
+                    }
+                    
+                    input {
+                        width: 100%;
+                        height: 2rem;
+                        padding: 0;
+                        margin: 0;
+                    }
+                    
+                    textarea {
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                        height: 6rem;
+                    }
+                    
+                    .boton {
+                        background-color: initial;
+                        background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+                        border-radius: 6px;
+                        box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+                        color: #FFFFFF;
+                        height: 3rem;
+                        width: 25%;
+                        margin-top: 2rem;
+                        padding: 0;
+                        position: relative;
+                        text-align: center;
+                        font-size: 1.5rem;
+                    }
+                    
+                    .boton:hover {
+                        box-shadow: rgba(255, 198, 9, 0.65) 0 3px 8px;
+                    }
+                    /*Ajustes para escritorio*/
+                    
+                    @media screen and (min-width: 600px) {
+                        .titulo {
+                            margin-top: 4rem;
+                            font-size: 3.5rem;
+                            text-align: left;
+                        }
+                        .lista {
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+                            overflow: hidden;
+                            background-color: rgb(44, 49, 49);
+                            position: fixed;
+                            top: 0;
+                            width: 100%;
+                            font-size: 1.2rem;
+                        }
+                        .menu-bar {
+                            float: left;
+                            display: flex;
+                        }
+                        .menu-bar a {
+                            display: block;
+                            color: rgb(255, 255, 255);
+                            text-align: center;
+                            padding: 1rem 1rem;
+                            transition: all 0.3s ease;
+                            text-decoration: none;
+                        }
+                        .menu-bar a:hover {
+                            background-color: rgb(235, 73, 23);
+                        }
+                        .active {
+                            background-color: #04AA6D;
+                        }
+                        .menu-icon {
+                            display: none;
+                        }
+                        h2 {
+                            text-align: left;
+                        }
+                        .profile-pic {
+                            display: block;
+                            margin: 0;
+                            padding: 0;
+                            position: 0 0 10rem 0;
+                        }
+                        .sec-trabajos {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: start;
+                            flex-wrap: wrap;
+                            max-width: 80rem;
+                            height: 40rem;
+                            margin: 2rem;
+                            padding: 1rem;
+                        }
+                        .caja-formulario {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            margin-bottom: 2rem;
+                        }
+                        .titulo-contacto {
+                            width: 100%;
+                        }
+                        .formulario {
+                            padding: 2rem;
+                            width: 80%;
+                        }
